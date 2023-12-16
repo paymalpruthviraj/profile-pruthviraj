@@ -7,42 +7,53 @@
     <style>
       #header{
         background-color: black;
-        color: rgb(190, 152, 83);
+        color: orange;
         font-weight: bolder;
         font-size: 17px;
       }
-      nav{
-        font-weight: bolder;
-        font-size: large;
-        
-        
-      }
-      #nav{
-        color: black;
-      }
+      nav a{
+            margin-right: 40px;
+            text-decoration: none;
+            font-size: larger;
+            color: black;
+            font-weight: bolder;
+        }
+        #homeLink{
+            margin-left: 10px;
+        }
+        #footer{
+          margin-right: 40px;
+          text-decoration: none;
+          font-size: larger;
+          font-weight:bolder;
+          color:black;
+        }
+        .header{
+          margin-right: 40px;
+        }
     </style>
   </head>
   <body>
     <!-- -Header Section -->
     <header>
       <p id="header">
-        Name: Pruthviraj paymal &nbsp;&nbsp;&nbsp;&nbsp; Mobile No:8830027388
-        &nbsp;&nbsp;&nbsp;&nbsp; Email:paymalpruthviraj@gmail.com
+       <span class="header">Name: Pruthviraj paymal</span>  <span class="header">Mobile No:8830027388</span> 
+       <span class="header">Email:paymalpruthviraj@gmail.com</span> 
       </p>
       <hr>
     </header>
     <!-- Navigation Section -->
     <nav >
       <a href="home.html" target="myFrame" id="nav">HOME</a
-      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      >
       <a href="techStack.html" target="myFrame" id="nav">TECH STACK</a
-      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      >
       <a href="project.html" target="myFrame" id="nav">PROJECT</a
-      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      >
       <a href="education.html" target="myFrame" id="nav">EDUCATION</a
-      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      >
       <a href="other.html" target="myFrame" id="nav">OTHER</a
-      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      >
     </nav>
 
     <!-- Body Section -->
@@ -52,11 +63,11 @@
     <!-- Footer Section -->
     <footer>
       <a href="https://www.linkedin.com/in/pruthviraj-paymal-9b9b78269/"
-        >Linkdin</a
-      >&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://github.com/paymalpruthviraj/profile-pruthviraj.git">GitHub</a
-      >&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="">Naukari</a>
+         id="footer">Linkdin</a
+      >
+      <a href="https://github.com/paymalpruthviraj/profile-pruthviraj.git" id="footer">GitHub</a
+      >
+      <a href="" id="footer">Naukari</a>
     </footer>
   </body>
 </html>
