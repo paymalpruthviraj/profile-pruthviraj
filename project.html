@@ -29,27 +29,40 @@
         }
         .mainheading{
             font-family: 'Poppins', sans-serif;
-            color: orange;
+            color: white;
             background-color: black;
         }
         .mainheading{
             font-family: 'Poppins', sans-serif;
-            color: orange;
+            color: white;
             background-color: black;
         }
+        ul li{
+            color: orange;
+            list-style: none;
+        }
+    #list ::before{
+    content: "👉";}
+   #{
+    color: orange;
+   }
+   #para{
+    color: orange;
+   }
         
     </style>
 </head>
 <body>
     <h2 class="mainheading"> <strong>Project Details</strong> </h2>
-    <hr>
-<p><h3><span id="name">Name:</span><u>Student Management</u> </h3></p>
- <p><h3><strong><u> <span id="Environemnt">Environment:</span></u></strong><mark>Angular8,TypeScript,JavaScript(ES6),HTML5,CSS,Bootstrap,GitHub,Desktop GitHub,Agile and JIRA,IDE-VSCode</mark>  </h3></p>
-<p><h3><strong id="team">Team Size:</strong> 06 <Strong id="Duration">Duration:</Strong> 2021-1 <sup>st</sup> july till <i><u>present</u></i> </h3></p>
-<p><h3><strong id="project">Project Description:</strong>  This project is mainly used for student management in colleges where It help to manage student record like <br>student registration,student update information and to see all his or her academic activities like score card attendance.</h3></p>
+<p id="info">
+<p><h3 id="para"><span id="name">Name:</span><u>Student Management</u> </h3></p>
+ <p><h3 id="para"><strong><u> <span id="Environemnt">Environment:</span></u></strong><mark><span id="info">Angular8,TypeScript,JavaScript(ES6),HTML5,CSS,Bootstrap,GitHub,Desktop GitHub,Agile and JIRA,IDE-VSCode</mark>  </h3></span></p>
+<p><h3 id="para"><strong id="team">Team Size: <span id="info"></strong> 06 <Strong id="Duration">Duration:</Strong> 2021-1 <sup>st</sup> july till <i><u>present</u></i> </h3></span></p>
+<p><h3 id="para"><strong id="project">Project Description:</strong>  This project is mainly used for student management in colleges where It help to manage student record like <br>student registration,student update information and to see all his or her academic activities like score card attendance.</h3></p>
+</p>
 <hr>
 <h3 class="mainheading"> <strong>Roles and Responsibilities:</strong> </h3>
-<ul>
+<ul id="list">
 
     <li class="list">Designed and implemented the user interface using HTML5 and CSS</li>
     <li class="list">Work closely with backend developer for code integration</li>
@@ -58,7 +71,8 @@
     <li class="list">Used JIRA for bug tracting</li>
     <li class="list">Implementd project using Agile SCRUM methodology,Involved in daily Stand up meeting,sprint showcase and sprint retrospective </li>
     <li class="list">Involved in fixing technical issues</li>
-    <hr>
 </ul>
+    
+
 </body>
 </html>
